@@ -1,7 +1,15 @@
 # State of the States 2023 Text Analysis
 The GitHub repo for text analysis of the 2023 State of the State addresses and press releases for 13 states. Haven't read the blog yet? Check out our write-up of this research [here](). 
 
-## 1. Data Collection: Webscraping\*
+
+## Our Methodology
+To enhance our understanding of these speeches and press releases, we harnessed the power of statistics using Python to identify frequent terms and topics from a large amount of documents. 
+
+First this involved scraping the annual State of the State address for all 50 states and an average of 279 press releases from 13 state governor websites. Next we converted the text into numerical data with a [Term Frequency - Inverse Document Frequency (TF-IDF)](https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency/) matrix. 
+
+Then we used the unsupervised machine learning technique [Principal Components Analysis (PCA)](https://builtin.com/data-science/step-step-explanation-principal-component-analysis) to identify underlying patterns in the large dataset and group terms into larger principle components, which we then interpreted as key policy priorities. 
+
+## Data Collection: Webscraping\*
 
 ###  State of the State Address
 
@@ -21,7 +29,7 @@ See the scripts below for the webscraping code for press releases on each state'
 - [West Virginia](https://github.com/beeckcenter/state_of_the_states_2023/blob/main/01_data_collection/scraping_press_releases/west_virginia_scraping_public.ipynb)
 - [Wisconsin](https://github.com/beeckcenter/state_of_the_states_2023/blob/main/01_data_collection/scraping_press_releases/wisconsin_scraping_public.ipynb)
 
-## 2. Data Analysis
+## Data Analysis
 
 - **[Analysis of the State of the State Addresses](https://github.com/beeckcenter/state_of_the_states_2023/blob/main/02_data_analysis/02_analysis_sos.ipynb)** <br>
     <ul>
