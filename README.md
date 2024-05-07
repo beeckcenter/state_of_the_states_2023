@@ -2,7 +2,7 @@
 Each year, the “State of the State'' speech is a governor’s prime opportunity to outline their top priorities to the public.
 [The Beeck Center for Social Impact + Innovation]() analyzed all 50 2023 State of the State addresses (or the equivalent annual budget address or inaugural speech) and dove deeper into governor’s priorities by analyzing a year’s worth of press releases for the 13 states that have participated in our [Data Labs](https://beeckcenter.georgetown.edu/projects/data-labs/) program. This GitHub repo includes the code used to collect the data and conduct text analysis. 
  
-Haven't read the blog yet? Check out our write-up of this research [here](). 
+Haven't read the blog yet? Check out our write-up of this research [here](https://beeckcenter.georgetown.edu/the-state-of-the-states-what-governors-across-the-us-prioritized-in-2023/). 
 
 ## Our Methodology
 To enhance our understanding of these speeches and press releases, we harnessed the power of statistics using Python to identify frequent terms and topics from a large amount of documents. 
