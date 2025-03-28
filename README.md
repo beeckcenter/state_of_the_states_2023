@@ -40,7 +40,7 @@ See the scripts below for the webscraping code for press releases on each state'
 
 ## Data Analysis
 
-- [Analysis of the State of the State Addresses](https://github.com/beeckcenter/state_of_the_states_2023/blob/main/02_data_analysis/02_analysis_sos.ipynb) <br>
+- [Analysis of the State of the State Addresses](https://github.com/beeckcenter/state_of_the_states_2023/blob/main/02_data_analysis/02_analysis_sos_public.ipynb) <br>
     <ul>
       <li> Preprocessing (addressing outliers, removing custom stop words, hyperparameter tuning, etc.) </li>
       <li> Creating the Term Frequency - Inverse Document Frequency (TF-IDF) matrix </li>
